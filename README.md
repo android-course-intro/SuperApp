@@ -1,2 +1,0 @@
-# SuperApp
-Android Course:intro 
