@@ -2,6 +2,7 @@ package kz.androidgirls.team.ui.signup
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import kz.androidgirls.team.R
 
 class SignUpActivity : AppCompatActivity() {
 
