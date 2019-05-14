@@ -5,33 +5,52 @@
 
     <group android:checkableBehavior="single">
         <item
-                android:id="@+id/nav_home"
-                android:icon="@drawable/ic_menu_camera"
-                android:title="@string/menu_home"/>
-        <item
-                android:id="@+id/nav_gallery"
-                android:icon="@drawable/ic_menu_gallery"
-                android:title="@string/menu_gallery"/>
-        <item
-                android:id="@+id/nav_slideshow"
-                android:icon="@drawable/ic_menu_slideshow"
-                android:title="@string/menu_slideshow"/>
-        <item
-                android:id="@+id/nav_tools"
-                android:icon="@drawable/ic_menu_manage"
-                android:title="@string/menu_tools"/>
+                android:id="@+id/nav_offline_access"
+                android:icon="@drawable/ic_baseline_backup_24px"
+                android:title="@string/menu_offline_access"/>
     </group>
 
-    <item android:title="Communicate">
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_support_app"
+                android:icon="@drawable/ic_baseline_favorite_24px"
+                android:title="@string/menu_support_app"/>
+        <item
+                android:id="@+id/nav_rate_app"
+                android:icon="@drawable/ic_baseline_grade_24px"
+                android:title="@string/menu_rate_app"/>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_my_languages"
+                android:icon="@drawable/ic_baseline_translate_24px"
+                android:title="@string/menu_my_languages"/>
+        <item
+                android:id="@+id/nav_default_theme"
+                android:icon="@drawable/ic_baseline_translate_24px"
+                android:title="@string/menu_default_theme"/>
+    </group>
+
+
+    <item android:title="">
         <menu>
             <item
-                    android:id="@+id/nav_share"
-                    android:icon="@drawable/ic_menu_share"
-                    android:title="@string/menu_share"/>
+                    android:id="@+id/nav_privacy_policy"
+                    android:icon="@drawable/ic_baseline_pan_tool_24px"
+                    android:title="@string/menu_privacy_policy"/>
             <item
-                    android:id="@+id/nav_send"
+                    android:id="@+id/nav_terms_of_use"
+                    android:icon="@drawable/ic_baseline_description_24px"
+                    android:title="@string/menu_terms_of_use"/>
+            <item
+                    android:id="@+id/nav_help_and_feedback"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="@string/menu_help_and_feedback"/>
+            <item
+                    android:id="@+id/nav_about_the_app"
                     android:icon="@drawable/ic_menu_send"
-                    android:title="@string/menu_send"/>
+                    android:title="@string/menu_about_the_app"/>
         </menu>
     </item>
 

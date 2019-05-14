@@ -66,22 +66,31 @@ class Drawer_logged_in : AppCompatActivity(), NavigationView.OnNavigationItemSel
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         // Handle navigation view item clicks here.
         when (item.itemId) {
-            R.id.nav_home -> {
+            R.id.nav_offline_access -> {
                 // Handle the camera action
             }
-            R.id.nav_gallery -> {
+            R.id.nav_support_app -> {
 
             }
-            R.id.nav_slideshow -> {
+            R.id.nav_rate_app -> {
 
             }
-            R.id.nav_tools -> {
+            R.id.nav_my_languages -> {
 
             }
-            R.id.nav_share -> {
+            R.id.nav_default_theme -> {
 
             }
-            R.id.nav_send -> {
+            R.id.nav_privacy_policy -> {
+
+            }
+            R.id.nav_terms_of_use -> {
+
+            }
+            R.id.nav_help_and_feedback -> {
+
+            }
+            R.id.nav_about_the_app -> {
 
             }
         }
