@@ -7,4 +7,43 @@
         android:layout_height="match_parent"
         tools:context=".ui.login.LoginActivity">
 
+    <TextView
+            android:text="W"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="127dp"
+            tools:layout_editor_absoluteX="139dp" android:id="@+id/txt_W" android:textSize="150"/>
+    <TextView
+            android:text="E-mail address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="396dp"
+            tools:layout_editor_absoluteX="57dp" android:id="@+id/txt_e-mail"/>
+    <EditText
+            android:layout_width="283dp"
+            android:layout_height="58dp"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            tools:layout_editor_absoluteY="437dp" tools:layout_editor_absoluteX="57dp" android:id="@+id/edt_e-mail"
+            android:text="alvinarm@gmail.com"/>
+    <TextView
+            android:text="Password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="507dp"
+            tools:layout_editor_absoluteX="57dp" android:id="@+id/txt_password"/>
+    <EditText
+            android:layout_width="284dp"
+            android:layout_height="52dp"
+            android:inputType="textPassword"
+            android:ems="10"
+            tools:layout_editor_absoluteY="536dp" tools:layout_editor_absoluteX="56dp" android:id="@+id/edt_password"
+            android:text="@string/app_name"/>
+    <Button
+            android:text="Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="610dp"
+            tools:layout_editor_absoluteX="56dp" android:id="@+id/btn_login" android:background="#2196F3"/>
+    <Button
+            android:text="SignUP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="610dp"
+            tools:layout_editor_absoluteX="255dp" android:id="@+id/btn_signup" android:background="#FFFFFF"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
