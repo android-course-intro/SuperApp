@@ -2,6 +2,7 @@ package kz.androidgirls.team.ui.login
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import kz.androidgirls.team.R
 
 class LoginActivity : AppCompatActivity() {
 
