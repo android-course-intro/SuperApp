@@ -3,6 +3,7 @@
     <string name="e_mail_address">E-mail address</string>
     <string name="alvinarm_gmail_com">alvinarm@gmail.com</string>
     <string name="password">Password</string>
+    <string name="confirm_password">Confirm password</string>
     <string name="password_not_visible">•••••••••</string>
     <string name="w">W</string>
     <string name="login">LOG IN</string>
