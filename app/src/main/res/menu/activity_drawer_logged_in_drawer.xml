@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_offline_access"
+                android:icon="@drawable/ic_baseline_backup_24px"
+                android:title="@string/menu_offline_access"/>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_support_app"
+                android:icon="@drawable/ic_baseline_favorite_24px"
+                android:title="@string/menu_support_app"/>
+        <item
+                android:id="@+id/nav_rate_app"
+                android:icon="@drawable/ic_baseline_grade_24px"
+                android:title="@string/menu_rate_app"/>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_my_languages"
+                android:icon="@drawable/ic_baseline_translate_24px"
+                android:title="@string/menu_my_languages"/>
+        <item
+                android:id="@+id/nav_default_theme"
+                android:icon="@drawable/ic_format_letter_case"
+                android:title="@string/menu_default_theme"/>
+    </group>
+
+
+    <item android:title="">
+        <menu>
+            <item
+                    android:id="@+id/nav_privacy_policy"
+                    android:icon="@drawable/ic_baseline_pan_tool_24px"
+                    android:title="@string/menu_privacy_policy"/>
+            <item
+                    android:id="@+id/nav_terms_of_use"
+                    android:icon="@drawable/ic_baseline_description_24px"
+                    android:title="@string/menu_terms_of_use"/>
+            <item
+                    android:id="@+id/nav_help_and_feedback"
+                    android:icon="@drawable/ic_lifebuoy_595b40b75ba036ed117d8043"
+                    android:title="@string/menu_help_and_feedback"/>
+            <item
+                    android:id="@+id/nav_about_the_app"
+                    android:icon="@drawable/ic_icon"
+                    android:title="@string/menu_about_the_app"/>
+        </menu>
+    </item>
+
+</menu>
